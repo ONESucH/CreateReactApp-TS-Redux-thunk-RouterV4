@@ -7,7 +7,7 @@ import { store, history } from './store';
 import reportWebVitals from './reportWebVitals';
 import './index.css';
 
-import App from './App';
+import App from './pages/App';
 
 render(
  <Provider store={store}>
