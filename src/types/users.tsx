@@ -13,5 +13,10 @@ export interface IInitialAction {
 }
 
 export interface IStateUsers {
-	users: IResponseUsers[];
+	users?: IResponseUsers[];
+}
+
+export interface IPropsUsers {
+	users?: IResponseUsers[];
+	getUsers: any;
 }
